@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple HTML Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Your one-stop for awesome content</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <article>
+            <h3>Introduction</h3>
+            <p>This is a simple HTML project that demonstrates the use of 50 different HTML tags. Explore this page to learn more!</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <article>
+            <h3>About Us</h3>
+            <p>We are a company dedicated to providing high-quality services to our clients.</p>
+            <blockquote>This is a blockquote example. It's often used to highlight a section of text.</blockquote>
+            <ul>
+                <li>Quality Services</li>
+                <li>Customer Satisfaction</li>
+                <li>Innovative Solutions</li>
+            </ul>
+            <p>Our mission is to <mark>innovate</mark> and improve our services continuously.</p>
+        </article>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <article>
+            <h3>What We Offer</h3>
+            <p>Our services include:</p>
+            <ol>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+            </ol>
+            <p>Here are some of our recent works:</p>
+            <figure>
+                <img src="https://via.placeholder.com/200" alt="Work Example">
+                <figcaption>Project A - Web Development</figcaption>
+            </figure>
+            <p>For more details, visit our <a href="services.html">services page</a>.</p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <article>
+            <h3>Get in Touch</h3>
+            <p>If you have any questions, feel free to reach out using the form below:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                <fieldset>
+                    <legend>Subscribe to our newsletter:</legend>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Yes, subscribe me!</label>
+                </fieldset><br>
+                
+                <fieldset>
+                    <legend>Choose your preferred contact method:</legend>
+                    <input type="radio" id="email_contact" name="contact_method" value="email" checked>
+                    <label for="email_contact">Email</label><br>
+                    
+                    <input type="radio" id="phone_contact" name="contact_method" value="phone">
+                    <label for="phone_contact">Phone</label>
+                </fieldset><br>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Website | All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
